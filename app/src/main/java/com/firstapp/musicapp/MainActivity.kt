@@ -2,10 +2,8 @@ package com.firstapp.musicapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.firstapp.musicapp.adapter.RvMusicAdapter
@@ -66,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showMusic(){
-        var name = "justin bieber"
+        val name = "justin bieber"
         musicViewModel.getMusic(name)
         showLoading(true)
     }

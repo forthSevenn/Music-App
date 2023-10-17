@@ -33,8 +33,11 @@ class MusicPlayerFragment : Fragment() {
         val music: MusicResponse.Music = requireArguments().getParcelable("music")!!
 
         mediaPlayer = MediaPlayer.create(requireActivity().applicationContext,music.preview.toUri())
-        mediaPlayer.start()
-        playStatus(true)
+
+        mediaPlayer.setOnPreparedListener {
+            mediaPlayer.start()
+            playStatus(true)
+        }
 
         mediaPlayer.setOnCompletionListener {
             playStatus(false)

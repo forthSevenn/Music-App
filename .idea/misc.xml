@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Github/Music-App/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Github/Music-App/app/src/main/res/layout/music_list.xml" value="0.21614583333333334" />
         <entry key="..\:/MusicApp/app/src/main/res/drawable/ic_app_logo.xml" value="0.209" />
         <entry key="..\:/MusicApp/app/src/main/res/drawable/ic_pause.xml" value="0.2745" />
         <entry key="..\:/MusicApp/app/src/main/res/drawable/ic_play.xml" value="0.2745" />
